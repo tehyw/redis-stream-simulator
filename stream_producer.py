@@ -3,10 +3,11 @@ import time
 import random
 from datetime import datetime
 
+# Your Upstash Redis credentials
 r = redis.Redis(
-    host='your-upstash-host.upstash.io',
+    host="oriented-feline-60698.upstash.io",
     port=6379,
-    password='your-password',
+    password=password,  # truncated for security
     ssl=True,
     decode_responses=True
 )
